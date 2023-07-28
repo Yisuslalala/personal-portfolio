@@ -5,6 +5,7 @@ import Experience from "./pages/Experience"
 import Projects from './pages/Projects'
 import Navbar from "./components/Navbar"
 
+
 function App() {
   return (
     <div className="App">
