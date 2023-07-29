@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  widows: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvica, sans-serif;
+  background-color: #f0f0f0;
 }
 
 body {
