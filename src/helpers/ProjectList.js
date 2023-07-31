@@ -2,17 +2,20 @@ import employeeSystem from "../assets/employeeSystem.png";
 import bookCollection from "../assets/bookCollection.png";
 import ticTacToe from "../assets/ticTacToe.png"
 
-export const projectList = [
+export const ProjectList = [
     {
         name: "Sistema de empleados",
-        image: employeeSystem
+        image: employeeSystem,
+        skills: "React.js, Node.js, Express.js, MySQL"
     },
     {
         name: "Sistema de libros",
-        image: bookCollection
+        image: bookCollection,
+        skills: "React.js, Node.js, Express.js, MySQL"
     },
     {
         name: "Juego del gato",
-        image: ticTacToe
+        image: ticTacToe,
+        skills: "React.js"
     }
 ]
