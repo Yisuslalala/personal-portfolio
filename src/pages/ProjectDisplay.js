@@ -8,6 +8,9 @@ import "../styles/ProjectDisplay.css"
 function ProjectDisplay() {
     const { id } = useParams();
     const project = ProjectList[id];
+    const url = ProjectList[id].url;
+    console.log(url);
+
   return (
       <div className='project'>
         <h1>{project.name}</h1>
@@ -16,8 +19,9 @@ function ProjectDisplay() {
             <b>Skills: </b>
             {project.skills}
         </p>
-        
+
         <GithubIcon />
+        <h1>{url}</h1>
       </div>
   )
   

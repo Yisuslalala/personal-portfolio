@@ -8,7 +8,8 @@ export const ProjectList = [
     {
         name: "Sistema de empleados",
         image: employeeSystem,
-        skills: "React.js, Node.js, Express.js, MySQL"
+        skills: "React.js, Node.js, Express.js, MySQL",
+        url: "https://github.com/Yisuslalala/Employees-crud-client"
     },
     {
         name: "Sistema de libros",
