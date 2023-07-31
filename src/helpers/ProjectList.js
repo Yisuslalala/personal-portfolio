@@ -1,6 +1,8 @@
 import employeeSystem from "../assets/employeeSystem.png";
 import bookCollection from "../assets/bookCollection.png";
 import ticTacToe from "../assets/ticTacToe.png"
+import twitterDatabase from "../assets/twitterDatabase.jpeg";
+
 
 export const ProjectList = [
     {
@@ -17,5 +19,10 @@ export const ProjectList = [
         name: "Juego del gato",
         image: ticTacToe,
         skills: "React.js"
+    },
+    {
+        name: "Base de datos de Twitter",
+        image: twitterDatabase,
+        skills: "Diseño de base de datos, Análisis de requerimientos, MySQL"
     }
 ]

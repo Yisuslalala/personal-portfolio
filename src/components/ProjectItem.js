@@ -12,6 +12,7 @@ function ProjectItem ({image, name, id}) {
       }}
     >
       <div 
+      // eslint-disable-next-line
         style={{backgroundImage: `url(${image})`}} 
         className='bgImage'
       />
