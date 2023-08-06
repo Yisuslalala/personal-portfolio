@@ -24,10 +24,8 @@ function ProjectDisplay() {
             <b>Skills: </b>
             {project.skills}
         </p>
-        <button className="repoLink" onClick={handleClick}>
-        <GithubIcon />
-        </button>
-        <h1>{url}</h1>
+        <GithubIcon className= "repoLink" onClick={handleClick}/>
+        {/*<h1>{url}</h1>*/}
       </div>
   )
   
