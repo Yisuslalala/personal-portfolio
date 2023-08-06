@@ -1,11 +1,17 @@
 import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import '../styles/Home.css';
 
 
 function Home() {
+
+  const handleClick = (url) => {
+    window.location.href = url;
+    console.log(url);
+  };
+
   return (
     <div className='home'>
       <div className='about'>
@@ -14,9 +20,10 @@ function Home() {
           <p>
             Ingeniero de software apasionado por crear y aprender.
           </p>
-          <LinkedInIcon />
+        
+          <LinkedInIcon url={"https://www.linkedin.com/in/jes%C3%BAs-qui%C3%B1ones/"} onClick={handleClick}/>
           <GitHubIcon />
-          <MailOutlineIcon />
+          <TwitterIcon />
         </div>
       </div>
         <div className="skills">
