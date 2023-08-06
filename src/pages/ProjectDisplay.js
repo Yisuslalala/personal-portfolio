@@ -11,6 +11,11 @@ function ProjectDisplay() {
     const url = ProjectList[id].url;
     console.log(url);
 
+    const handleClick = () => {
+      window.location.href = url;
+    };
+
+
   return (
       <div className='project'>
         <h1>{project.name}</h1>
@@ -19,8 +24,9 @@ function ProjectDisplay() {
             <b>Skills: </b>
             {project.skills}
         </p>
-
+        <button className="repoLink" onClick={handleClick}>
         <GithubIcon />
+        </button>
         <h1>{url}</h1>
       </div>
   )
