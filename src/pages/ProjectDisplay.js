@@ -24,6 +24,10 @@ function ProjectDisplay() {
             <b>Skills: </b>
             {project.skills}
         </p>
+        <span>
+          Para ver el código del projecto:
+        </span>
+        
         <GithubIcon className= "repoLink" onClick={handleClick}/>
         {/*<h1>{url}</h1>*/}
       </div>
