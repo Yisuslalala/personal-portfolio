@@ -6,12 +6,6 @@ import '../styles/Home.css';
 
 
 function Home() {
-
-  const handleClick = (url) => {
-    window.location.href = url;
-    console.log(url);
-  };
-
   return (
     <div className='home'>
       <div className='about'>
@@ -21,9 +15,15 @@ function Home() {
             Ingeniero de software apasionado por crear y aprender.
           </p>
         
-          <LinkedInIcon url={"https://www.linkedin.com/in/jes%C3%BAs-qui%C3%B1ones/"} onClick={handleClick}/>
+          <a href="https://www.linkedin.com/in/jes%C3%BAs-qui%C3%B1ones/">
+            <LinkedInIcon />
+          </a>
+          <a href="https://github.com/Yisuslalala">
           <GitHubIcon />
+          </a> 
+          <a href="https://twitter.com/Yisuslalala">
           <TwitterIcon />
+          </a>
         </div>
       </div>
         <div className="skills">
